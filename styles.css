@@ -1,0 +1,204 @@
+
+
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  background-color: #ff6600;
+  padding: 10px;
+}
+
+nav a:hover {
+    color: brown;
+    /* başlıklara tıklayınca renk değiştirme */
+}
+
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.7rem 10rem 0.7rem 7rem;
+    transition: padding 0.3s;
+    background-color: darkgreen;
+    color: white;
+  }
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: #f2f2f2;
+    padding: 10px;
+}
+
+
+
+nav a {
+
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    transition: color 0.3s ease;
+    /* Geçiş efekti */
+    margin: 0 1rem;
+
+}
+
+
+
+.content {
+    padding: 20px;
+}
+
+footer {
+    background-color: blue;
+    color: rgb(160, 14, 14);
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    /*sayfanın alt çubuğunun düzenlenmesi*/
+}
+
+/* Eklediğim stil */
+p {
+    text-align: justify;
+}
+
+/* Genel Stiller */
+.news-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 60px;
+    padding-bottom: 20px;
+    /* İsteğe bağlı, aralara boşluk ekler */
+}
+
+.content {
+    width: 30%;
+    /* İsteğe bağlı, içeriklerin genişliğini ayarlar */
+    padding: 10px;
+    border: 1px solid #ddd;
+    /* Kenarlık ekler */
+    border-radius: 8px;
+    /* Köşeleri yuvarlar */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* Hafif bir gölge ekler */
+    margin-bottom: 20px;
+    /* İsteğe bağlı, içerikler arasına boşluk ekler */
+}
+
+/* Resim Stilleri */
+.content img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    /* Resim köşelerini yuvarlar */
+}
+
+/* Başlık Stilleri */
+.content h2 {
+    text-align: center;
+    color: #333;
+    /* Başlık rengi */
+    margin-top: 10px;
+    /* İsteğe bağlı, başlık ile resim arasına boşluk ekler */
+}
+
+/* Paragraf Stilleri */
+.content p {
+    color: #333;
+    /* Paragraf rengi */
+    line-height: 2;
+    /* Satır arası boşluk */
+margin: 1rem;
+}
+
+.haber-karti {
+    display: flex;
+    width: 90vw;
+    min-height: 60vh;
+    overflow: hidden;
+    
+  }
+
+  .resim {
+
+    flex: 1;
+    overflow: hidden;
+    padding: 30px;
+    margin: 30px;
+    border: #333;
+    
+    
+
+
+  }
+  .resim1 img {
+
+    padding: 30px;
+    margin: 30px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  height: 40%;
+  border-radius: 50px;
+ 
+  
+    
+    
+    
+
+
+  }
+  
+
+  img {
+    width: 100%;
+    height: 80%;
+   
+  }
+
+  .icerik {
+    flex: 1;
+    padding: 30px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+  }
+  #yazı{
+    text-align: center;
+    margin: 20px;
+  }
+
+  h2 {
+    margin: 0;
+    font-size: 30px;
+    color: #333;
+  }
+
+  p {
+    margin: 10px 0;
+    font-size: 16px;
+    flex-grow: 5; /* İçeriğin büyümesi/küçülmesi için */
+  }
+  
+        /*  footer rengi için  style kapanış etiketine kadarki kısmı */
+        footer {
+            background-color: #3498db; /* İstediğiniz rengin hexadecimal veya isimsel değeri */
+            color: #333; /* Yazı rengi, beyaz veya uygun bir kontrast renk */
+            padding: 10px; /* İstenirse padding ekleyebilirsiniz */
+            text-align: center; /* İstenirse metni ortala */
+          }
